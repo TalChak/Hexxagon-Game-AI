@@ -1,5 +1,5 @@
 
-In this game, the user is playing against the computer. The player�s color is red, and the computer�s color is blue.
+In this game, the user is playing against the computer. The player’s color is red, and the computer’s color is blue.
 
 While moving across the board, the player has two optioins to make a move:
 1)	Moving one step: Move to one of the adjacent hexagons (at most eight hexagons). This move sets the current and the previous hexagons to red 
@@ -10,3 +10,8 @@ The player has to click on the origin hexagon, and then click on the hexagon to 
 The computer moves according to the same rules, however, it uses the alpha-beta pruning algorithm that searches for the best move possible. 
 
 The game ends when all of the hexagons in the board are colored, and the winner is the one who got to fill more hexagons with his color.
+
+The alpha-beta algorithm has one more parameter in this game- the search depth. It is determined by the level of the game. Higher level of search depth makes the game more difficult to win for the user.  
+
+The heuristic function: in Every stage, the current player’s score is calculated as the number of hexagons colored in his color, minus the number of hexagons colored in the opponent’s color. 
+
