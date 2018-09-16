@@ -1,0 +1,12 @@
+
+In this game, the user is playing against the computer. The player’s color is red, and the computer’s color is blue.
+
+While moving across the board, the player has two optioins to make a move:
+1)	Moving one step: Move to one of the adjacent hexagons (at most eight hexagons). This move sets the current and the previous hexagons to red 
+2)	Moving two steps:  Move to one of the adjacent hexagons that are adjacent to the origin hexagon. This move only sets the current hexagon to red.
+
+The player has to click on the origin hexagon, and then click on the hexagon to which we would like to move.
+
+The computer moves according to the same rules, however, it uses the alpha-beta pruning algorithm that searches for the best move possible. 
+
+The game ends when all of the hexagons in the board are colored, and the winner is the one who got to fill more hexagons with his color.
